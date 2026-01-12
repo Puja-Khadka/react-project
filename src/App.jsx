@@ -4,6 +4,7 @@ import { FaThumbsUp } from "react-icons/fa";
 import Demo from "./Components/Demo";
 import Toggle from "./Components/Toggle";
 import Demo1 from "./Components/Demo1";
+import Demo2 from "./Components/Demo2";
 function App() {
   const [liked,setLiked]=useState(false)
   const [count ,setCount]=useState(0)
@@ -31,7 +32,8 @@ function App() {
 
       {/* <Demo/> */}
       {/* <Toggle/> */}
-      <Demo1/>
+      {/* <Demo1/> */}
+      <Demo2/>
     </>
   )
 }
