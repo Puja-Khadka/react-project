@@ -21,21 +21,23 @@ function QuizApp() {
     setSelected(option)
           if(option===question[currentIndex].correct){
             setScore(prev=>prev+1)
-
-    
-   
-    
-         
-
-  }
+ }
 }
-  return (
+function handleclick(){
+  setCurrentIndex(0)
+  setScore(0)
+  setSelected("")
+  setShowresult(false)
+}
+  return ( 
     <>
    
      <div className='w-full h-screen flex flex-col justify-center items-center bg-blue-300'>
       <Timer/> 
 
-      {showresult?(<div className='text-white text-2xl font-bold'>Your Score: {score}</div>):<>
+      {showresult?(<><div className='text-white text-2xl font-bold flex gap-3 justify-center'><h1>Your Score: {score}</h1>
+      <button className='border px-2 bg-black text-white ' onClick={handleclick}>reset</button>
+      </div></>):<>
      <div className='shadow-lg w-100 h-100 bg-gray-500 border rounded-3xl hover:scale-105 transition-all duration-300 ease-in-out flex flex-col justify-center items-center mt-3'>
         <span className='border-b-2 w-full flex justify-center'> <h1 className='text-white text-2xl font-bold mb-1 '>Quiz App</h1></span>
         <div className=' p-5'>
