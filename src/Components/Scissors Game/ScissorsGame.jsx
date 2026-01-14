@@ -40,11 +40,11 @@ function ScissorsGame() {
         <div className='flex  items-center gap-10 justify-center text-center mt-4 '>
            <div>
             <h1 className='font-bold text-3xl text-white' >You </h1>
-            <div className='w-36 h-36 border my-4 flex-justify-center items-center text-5xl'>{userchoice}</div>
+            <div className='w-36 h-36 border my-4 flex justify-center items-center text-5xl'>{userchoice}</div>
            </div>
            <div>
             <h1 className='font-bold text-3xl text-white'>Computer</h1>
-            <div className='w-36 h-36 border my-4 flex-justify-center  text-5xl'>{computerchoice}</div>
+            <div className='w-36 h-36 border my-4 flex justify-center items-center text-5xl'>{computerchoice}</div>
            </div>
         </div>
         <div className='text-2xl font-semibold text-center'>{result}</div>

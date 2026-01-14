@@ -6,6 +6,7 @@ import Toggle from "./Components/Toggle";
 import Demo1 from "./Components/Demo1";
 import Demo2 from "./Components/Demo2";
 import ScissorsGame from "./Components/Scissors Game/ScissorsGame";
+import QuizApp from "./Components/Quiz/QuizApp";
 function App() {
   const [liked,setLiked]=useState(false)
   const [count ,setCount]=useState(0)
@@ -35,7 +36,8 @@ function App() {
       {/* <Toggle/> */}
       {/* <Demo1/> */}
       {/* <Demo2/> */}
-      <ScissorsGame/>
+      {/* <ScissorsGame/> */}
+      <QuizApp/>
     </>
   )
 }

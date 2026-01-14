@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What is the capital of Nepal?",
+    "options": ["Kathmandu", "Pokhara", "Lalitpur", "Biratnagar"],
+    "correct": "Kathmandu"
+  },
+  {
+    "question": "Which language is used in React?",
+    "options": ["Python", "Java", "JavaScript", "C++"],
+    "correct": "JavaScript"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Creative Style Sheet",
+      "Cascading Style Sheets",
+      "Computer Style Sheet",
+      "Colorful Style Sheet"
+    ],
+    "correct": "Cascading Style Sheets"
+  }
+]
+
