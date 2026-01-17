@@ -7,6 +7,7 @@ import Demo1 from "./Components/Demo1";
 import Demo2 from "./Components/Demo2";
 import ScissorsGame from "./Components/Scissors Game/ScissorsGame";
 import QuizApp from "./Components/Quiz/QuizApp";
+import Bmicalculator from "./Components/BMI calculator/Bmicalculator";
 function App() {
   const [liked,setLiked]=useState(false)
   const [count ,setCount]=useState(0)
@@ -37,7 +38,8 @@ function App() {
       {/* <Demo1/> */}
       {/* <Demo2/> */}
       {/* <ScissorsGame/> */}
-      <QuizApp/>
+      {/* <QuizApp/> */}
+      <Bmicalculator/>
     </>
   )
 }
